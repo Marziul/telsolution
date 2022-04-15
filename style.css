@@ -1,0 +1,68 @@
+/*
+Theme Name:   TelsolutionNetworks
+Description:  Write here a brief description about your child-theme
+Author:       Marziul Hoque
+Author URL:   https://arlendevs.com
+Template:     astra
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  TelsolutionNetworks
+*/
+
+/* Write here your own personal stylesheet */
+
+
+.ast-primary-header-bar {
+    border-color: transparent;
+}
+.site-header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.form-list ul{
+	list-style: none;
+}
+
+
+
+
+@media (max-width: 544px){
+	
+	.site-title {
+		display: block;
+		font-size: 4.8vw;
+	}
+	header .custom-logo-link img {
+		max-width: 65px;
+	}
+	
+	nav#ast-mobile-site-navigation {
+		width: 80%;
+		margin: 0 auto;
+		box-shadow: 1px 1px 10px #000;
+		position: absolute;
+		top: 92%;
+		left: 50%;
+		transform: translatex(-50%);
+	}
+	
+	.ast-header-break-point .main-navigation ul .menu-item .menu-link:hover {
+		background: #000;
+		color: #fff;
+	}
+	.ast-header-break-point .ast-mobile-header-wrap .ast-flex.stack-on-mobile {
+		box-shadow: 0px 0px 7px #000;
+   	 	border-radius: 10px;
+	}
+	
+	.home-slider .elementor img {
+		min-height: 230px;
+	}
+	
+}
+
+
+
+
